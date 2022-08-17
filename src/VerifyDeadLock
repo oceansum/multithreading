@@ -1,0 +1,4 @@
+验证是否是死锁
+1.jps -l  (类似Linux ps -ef)
+2.jstack 进程号  (jvm自带堆栈追踪工具)
+(命令在jdk bin 目录中)
